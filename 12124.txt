@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+	setlocale(0, "");
+	cout << "[ + ] Цикл \"WHILE\"" << endl;
+	int i;
+	cout << "[+] Введите число от 1 до 15: ";
+	cin >> i;
+	int a = 1;
+	if (i <= 15) {
+		while (a <= i) {
+			cout << "[ + ] Цикл отработал. Круг: " << a << endl;
+			a++;
+
+		};
+	
+	}
+	if (i > 15) {
+		cout << "Просили же числа от 1 до 15";
+	}
+
+
+
+
+
+
+
+	return 0;
+}
